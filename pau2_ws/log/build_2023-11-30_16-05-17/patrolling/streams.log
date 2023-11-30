@@ -1,0 +1,22 @@
+[0.134s] Invoking command in '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling -- -j16 -l16
+[0.171s] [100%] Built target publisher
+[0.178s] Invoked command in '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling -- -j16 -l16
+[0.200s] Invoking command in '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling
+[0.206s] -- Install configuration: ""
+[0.206s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/lib/patrolling/publisher
+[0.206s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/package_run_dependencies/patrolling
+[0.206s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/parent_prefix_path/patrolling
+[0.206s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/ament_prefix_path.sh
+[0.206s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/ament_prefix_path.dsv
+[0.206s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/path.sh
+[0.206s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/path.dsv
+[0.206s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.bash
+[0.206s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.sh
+[0.207s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.zsh
+[0.207s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.dsv
+[0.207s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/package.dsv
+[0.207s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/packages/patrolling
+[0.207s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/cmake/patrollingConfig.cmake
+[0.207s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/cmake/patrollingConfig-version.cmake
+[0.207s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/package.xml
+[0.207s] Invoked command in '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling
