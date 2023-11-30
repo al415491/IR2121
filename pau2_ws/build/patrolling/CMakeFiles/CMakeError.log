@@ -1,0 +1,58 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dcf8e/fast && /usr/bin/make -f CMakeFiles/cmTC_dcf8e.dir/build.make CMakeFiles/cmTC_dcf8e.dir/build
+make[1]: Entering directory '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcf8e.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_dcf8e.dir/src.c.o   -c /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dcf8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcf8e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_dcf8e.dir/src.c.o  -o cmTC_dcf8e 
+/usr/bin/ld: CMakeFiles/cmTC_dcf8e.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_dcf8e.dir/build.make:87: cmTC_dcf8e] Error 1
+make[1]: Leaving directory '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_dcf8e/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b63de/fast && /usr/bin/make -f CMakeFiles/cmTC_b63de.dir/build.make CMakeFiles/cmTC_b63de.dir/build
+make[1]: Entering directory '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b63de.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b63de.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b63de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b63de.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b63de.dir/CheckFunctionExists.c.o  -o cmTC_b63de  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b63de.dir/build.make:87: cmTC_b63de] Error 1
+make[1]: Leaving directory '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b63de/fast] Error 2
+
+
+

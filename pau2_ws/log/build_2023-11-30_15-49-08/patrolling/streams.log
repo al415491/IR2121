@@ -1,0 +1,63 @@
+[0.294s] Invoking command in '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/pau24113/Documents/GitHub/IR2121/pau2_ws/src/patrolling -DCMAKE_INSTALL_PREFIX=/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling
+[0.305s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.322s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.322s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.489s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.522s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.527s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.578s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.600s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.658s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.703s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.703s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.704s] -- Looking for pthread.h
+[0.751s] -- Looking for pthread.h - found
+[0.751s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.798s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.798s] -- Looking for pthread_create in pthreads
+[0.837s] -- Looking for pthread_create in pthreads - not found
+[0.838s] -- Looking for pthread_create in pthread
+[0.884s] -- Looking for pthread_create in pthread - found
+[0.886s] -- Found Threads: TRUE  
+[1.003s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.033s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.087s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.088s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.088s] -- Configured cppcheck include dirs: 
+[1.088s] -- Configured cppcheck exclude dirs and/or files: 
+[1.089s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.089s] -- Configured cpplint exclude dirs and/or files: 
+[1.089s] -- Added test 'lint_cmake' to check CMake code style
+[1.090s] -- Added test 'uncrustify' to check C / C++ code style
+[1.090s] -- Configured uncrustify additional arguments: 
+[1.091s] -- Added test 'xmllint' to check XML markup files
+[1.092s] -- Configuring done
+[1.097s] -- Generating done
+[1.098s] -- Build files have been written to: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling
+[1.103s] Invoked command in '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/pau24113/Documents/GitHub/IR2121/pau2_ws/src/patrolling -DCMAKE_INSTALL_PREFIX=/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling
+[1.105s] Invoking command in '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling -- -j16 -l16
+[1.129s] [35m[1mScanning dependencies of target publisher[0m
+[1.153s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[3.153s] [100%] [32m[1mLinking CXX executable publisher[0m
+[3.248s] [100%] Built target publisher
+[3.256s] Invoked command in '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling -- -j16 -l16
+[3.270s] Invoking command in '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling
+[3.275s] -- Install configuration: ""
+[3.276s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/lib/patrolling/publisher
+[3.276s] -- Set runtime path of "/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/lib/patrolling/publisher" to ""
+[3.276s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/package_run_dependencies/patrolling
+[3.276s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/parent_prefix_path/patrolling
+[3.277s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/ament_prefix_path.sh
+[3.277s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/ament_prefix_path.dsv
+[3.277s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/path.sh
+[3.277s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/path.dsv
+[3.277s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.bash
+[3.277s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.sh
+[3.277s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.zsh
+[3.277s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.dsv
+[3.277s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/package.dsv
+[3.277s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/packages/patrolling
+[3.278s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/cmake/patrollingConfig.cmake
+[3.278s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/cmake/patrollingConfig-version.cmake
+[3.278s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/package.xml
+[3.279s] Invoked command in '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling

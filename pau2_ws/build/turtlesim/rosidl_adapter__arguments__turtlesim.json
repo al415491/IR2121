@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlesim",
+  "non_idl_tuples": [
+    "/home/pau24113/Documents/GitHub/IR2121/pau2_ws/src/ros_tutorials/turtlesim:action/RotateAbsolute.action",
+    "/home/pau24113/Documents/GitHub/IR2121/pau2_ws/src/ros_tutorials/turtlesim:msg/Color.msg",
+    "/home/pau24113/Documents/GitHub/IR2121/pau2_ws/src/ros_tutorials/turtlesim:msg/Pose.msg",
+    "/home/pau24113/Documents/GitHub/IR2121/pau2_ws/src/ros_tutorials/turtlesim:srv/Kill.srv",
+    "/home/pau24113/Documents/GitHub/IR2121/pau2_ws/src/ros_tutorials/turtlesim:srv/SetPen.srv",
+    "/home/pau24113/Documents/GitHub/IR2121/pau2_ws/src/ros_tutorials/turtlesim:srv/Spawn.srv",
+    "/home/pau24113/Documents/GitHub/IR2121/pau2_ws/src/ros_tutorials/turtlesim:srv/TeleportAbsolute.srv",
+    "/home/pau24113/Documents/GitHub/IR2121/pau2_ws/src/ros_tutorials/turtlesim:srv/TeleportRelative.srv"
+  ]
+}

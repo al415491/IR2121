@@ -1,0 +1,16 @@
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/lib/patrolling/publisher
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/package_run_dependencies/patrolling
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/parent_prefix_path/patrolling
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/ament_prefix_path.sh
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/ament_prefix_path.dsv
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/path.sh
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/path.dsv
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.bash
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.sh
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.zsh
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.dsv
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/package.dsv
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/packages/patrolling
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/cmake/patrollingConfig.cmake
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/cmake/patrollingConfig-version.cmake
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/package.xml

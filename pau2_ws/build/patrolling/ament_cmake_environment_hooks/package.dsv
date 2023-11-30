@@ -1,0 +1,4 @@
+source;share/patrolling/local_setup.bash
+source;share/patrolling/local_setup.dsv
+source;share/patrolling/local_setup.sh
+source;share/patrolling/local_setup.zsh

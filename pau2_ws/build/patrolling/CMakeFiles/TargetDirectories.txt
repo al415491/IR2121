@@ -1,0 +1,10 @@
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/install/local.dir
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/install.dir
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/list_install_components.dir
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/rebuild_cache.dir
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/install/strip.dir
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/publisher.dir
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/edit_cache.dir
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/test.dir
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/patrolling_uninstall.dir
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/uninstall.dir

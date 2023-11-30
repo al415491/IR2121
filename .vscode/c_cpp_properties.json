@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${PATH}/**",
+                "/home/pau24113/.local/bin/**",
+                "/usr/local/sbin/**",
+                "/usr/local/bin/**",
+                "/usr/sbin/**",
+                "/usr/bin/**",
+                "/sbin:/bin/**",
+                "/usr/games/**",
+                "/usr/local/games/**",
+                "/snap/bin/**",
+                "/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

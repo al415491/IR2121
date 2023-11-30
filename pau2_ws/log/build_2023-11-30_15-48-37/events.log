@@ -1,0 +1,365 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (patrolling) JobQueued: {'identifier': 'patrolling', 'dependencies': OrderedDict()}
+[0.000130] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000147] (patrolling) JobStarted: {'identifier': 'patrolling'}
+[0.055860] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.099741] (-) TimerEvent: {}
+[0.112813] (patrolling) JobProgress: {'identifier': 'patrolling', 'progress': 'cmake'}
+[0.112869] (patrolling) Command: {'cmd': ['/usr/bin/cmake', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/src/patrolling', '-DCMAKE_INSTALL_PREFIX=/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling'], 'cwd': '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pau24113'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/pau24113'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1642'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68b0195d105bace4dc2d0cfc65689835'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'pau24113'), ('JOURNAL_STREAM', '8:49414'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pau24113'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/pau24113/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pau24113:@/tmp/.ICE-unix/1793,unix/pau24113:/tmp/.ICE-unix/1793'), ('INVOCATION_ID', '46a9101216e14f449c091f89b53bcc50'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b0435d3_4267_4d4f_ab50_1f56981e304c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6N20E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68b0195d105bace4dc2d0cfc65689835'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.116236] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.116769] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.117629] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/turtlesim', '--', '-j16', '-l16'], 'cwd': '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pau24113'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/pau24113'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1642'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68b0195d105bace4dc2d0cfc65689835'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'pau24113'), ('JOURNAL_STREAM', '8:49414'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pau24113'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/pau24113/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pau24113:@/tmp/.ICE-unix/1793,unix/pau24113:/tmp/.ICE-unix/1793'), ('INVOCATION_ID', '46a9101216e14f449c091f89b53bcc50'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b0435d3_4267_4d4f_ab50_1f56981e304c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6N20E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68b0195d105bace4dc2d0cfc65689835'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.150636] (patrolling) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.153601] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.155108] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.170344] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.170527] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.170598] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.171302] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.174618] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.188616] (patrolling) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.191702] (patrolling) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.193586] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.199853] (-) TimerEvent: {}
+[0.205484] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[0.219426] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__py\n'}
+[0.226501] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target mimic\n'}
+[0.226644] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target draw_square\n'}
+[0.226940] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtle_teleop_key\n'}
+[0.235706] (patrolling) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.236403] (patrolling) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.237396] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim_node\n'}
+[0.239035] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__python\n'}
+[0.256698] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.256838] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.256901] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.264067] (turtlesim) CommandEnded: {'returncode': 0}
+[0.279202] (patrolling) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.287961] (patrolling) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.288334] (patrolling) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.290092] (patrolling) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299975] (-) TimerEvent: {}
+[0.337812] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[0.340598] (patrolling) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.341372] (patrolling) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.344117] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/turtlesim'], 'cwd': '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pau24113'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('HOME', '/home/pau24113'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1642'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68b0195d105bace4dc2d0cfc65689835'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'pau24113'), ('JOURNAL_STREAM', '8:49414'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pau24113'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/pau24113/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pau24113:@/tmp/.ICE-unix/1793,unix/pau24113:/tmp/.ICE-unix/1793'), ('INVOCATION_ID', '46a9101216e14f449c091f89b53bcc50'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b0435d3_4267_4d4f_ab50_1f56981e304c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6N20E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68b0195d105bace4dc2d0cfc65689835'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.350693] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.350878] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[0.351010] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim\n'}
+[0.351171] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.351264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[0.351319] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.351372] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.351424] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[0.351476] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[0.351527] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[0.351577] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[0.351627] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[0.351677] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[0.351727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[0.351777] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[0.351827] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[0.351878] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.351927] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[0.351977] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.352027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[0.352089] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[0.352320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[0.352440] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[0.352502] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.352553] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[0.352602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[0.352656] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[0.352705] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.352810] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[0.352862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[0.352912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[0.353092] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[0.353143] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[0.353191] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[0.353245] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[0.353296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[0.353347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[0.353398] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[0.353452] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[0.353503] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[0.353581] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[0.353709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[0.353827] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[0.353965] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[0.354104] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[0.354208] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[0.354331] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[0.354426] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[0.354497] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[0.354547] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[0.354611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[0.354662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[0.354709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[0.354757] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim\n'}
+[0.354805] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.354855] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.354905] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[0.354956] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[0.355006] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.355079] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.355127] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.355174] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.355221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.355268] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.355315] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[0.355364] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[0.355412] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[0.355459] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.355507] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[0.355554] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[0.355602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim\n'}
+[0.355654] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.355702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.355750] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.355798] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.355846] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[0.355893] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.355962] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.356013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.356062] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[0.356115] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.356165] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.356281] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.356329] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.356376] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.356423] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[0.356470] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.356517] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.356564] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.356611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.356664] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim\n'}
+[0.356712] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.356759] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.356806] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.356856] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[0.356902] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[0.356949] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[0.356996] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[0.357043] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.357090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.357136] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[0.357183] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.357230] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.357278] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.357324] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[0.357371] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[0.357418] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[0.357465] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.357515] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[0.357562] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[0.357608] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[0.357655] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[0.357702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[0.357749] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[0.357796] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[0.357843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[0.357893] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim\n'}
+[0.357940] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.357987] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.358034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[0.358081] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.358133] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[0.358180] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[0.358227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.hpp\n'}
+[0.358273] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.hpp\n'}
+[0.358320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[0.358367] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[0.358414] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[0.358461] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[0.358508] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[0.358554] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.358600] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[0.358647] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.358693] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[0.358739] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[0.358786] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[0.358832] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.hpp\n'}
+[0.358879] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.358929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[0.358979] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[0.359027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[0.359073] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[0.359120] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.359166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[0.359213] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.hpp\n'}
+[0.359260] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[0.359307] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.hpp\n'}
+[0.359354] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[0.359400] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[0.359447] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.hpp\n'}
+[0.359494] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[0.359542] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[0.359589] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[0.359643] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[0.359690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[0.359738] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[0.359785] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.hpp\n'}
+[0.359832] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[0.359878] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.hpp\n'}
+[0.359925] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[0.359972] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[0.360019] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[0.360070] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[0.360117] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[0.360165] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim\n'}
+[0.360282] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[0.360329] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[0.360377] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[0.360427] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.360474] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[0.360521] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.360609] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action\n'}
+[0.360657] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[0.360703] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.360751] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[0.360798] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[0.360845] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[0.360892] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[0.360939] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.360986] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[0.361032] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[0.361080] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[0.361127] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[0.361174] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.361227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.361278] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.361325] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.361373] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[0.361420] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[0.361468] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[0.361515] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[0.361561] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[0.378399] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[0.378518] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[0.378575] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[0.378626] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[0.378771] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[0.378847] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[0.378906] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[0.378959] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[0.379010] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[0.379060] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[0.379108] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[0.379157] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[0.379205] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[0.379253] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[0.379301] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[0.379368] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[0.379415] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[0.379460] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[0.379505] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[0.379550] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[0.379595] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[0.379642] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[0.379704] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.379750] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.379796] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.379902] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/libturtlesim__python.so\n'}
+[0.380024] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[0.380083] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[0.380152] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[0.380280] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[0.380347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[0.380397] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[0.380465] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[0.380536] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[0.380586] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[0.380635] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[0.380684] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[0.380766] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[0.380816] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[0.380865] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[0.380914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[0.380962] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[0.381011] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[0.381059] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[0.381108] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[0.381158] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[0.381222] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[0.381306] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[0.381356] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[0.381402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[0.381448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[0.381497] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[0.381545] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[0.381593] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[0.381662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[0.381712] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[0.381781] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/images\n'}
+[0.381862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[0.381911] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[0.381959] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[0.382008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[0.382056] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[0.382139] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[0.382190] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/launch\n'}
+[0.382239] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[0.382308] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[0.382368] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[0.382414] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[0.382461] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[0.382508] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[0.382556] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[0.382605] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[0.382654] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[0.382702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[0.382751] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[0.382800] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[0.382864] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[0.382936] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[0.382984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.383033] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.383082] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.383131] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[0.383180] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.383244] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[0.383321] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.383376] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.383425] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[0.383500] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.383551] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[0.383600] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.383650] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.383699] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.383747] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.383817] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.383865] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.383912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[0.383957] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[0.384003] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[0.385422] (turtlesim) CommandEnded: {'returncode': 0}
+[0.392074] (patrolling) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.400162] (-) TimerEvent: {}
+[0.411491] (patrolling) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.411581] (patrolling) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.426758] (patrolling) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.427839] (patrolling) StdoutLine: {'line': b'See also "/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling/CMakeFiles/CMakeOutput.log".\n'}
+[0.427931] (patrolling) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.428114] (patrolling) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.428172] (patrolling) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.428433] (patrolling) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.428485] (patrolling) StderrLine: {'line': b'\n'}
+[0.428534] (patrolling) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.428583] (patrolling) StderrLine: {'line': b'  any of the following names:\n'}
+[0.428631] (patrolling) StderrLine: {'line': b'\n'}
+[0.428679] (patrolling) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.428823] (patrolling) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.428873] (patrolling) StderrLine: {'line': b'\n'}
+[0.428922] (patrolling) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.428971] (patrolling) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.429202] (patrolling) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.429251] (patrolling) StderrLine: {'line': b'  has been installed.\n'}
+[0.429299] (patrolling) StderrLine: {'line': b'\n'}
+[0.429346] (patrolling) StderrLine: {'line': b'\n'}
+[0.500840] (-) TimerEvent: {}
+[0.546857] (patrolling) CommandEnded: {'returncode': 1}
+[0.601085] (-) TimerEvent: {}
+[0.609789] (patrolling) JobEnded: {'identifier': 'patrolling', 'rc': 1}
+[0.615672] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 'SIGINT'}
+[0.626253] (-) EventReactorShutdown: {}
