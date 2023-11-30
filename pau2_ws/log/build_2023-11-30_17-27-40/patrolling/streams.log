@@ -1,0 +1,52 @@
+[0.134s] Invoking command in '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling -- -j16 -l16
+[0.150s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.165s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.311s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.334s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.337s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.422s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.461s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.462s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.576s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.607s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.669s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.711s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.712s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.712s] -- Configured cppcheck include dirs: 
+[0.712s] -- Configured cppcheck exclude dirs and/or files: 
+[0.712s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.712s] -- Configured cpplint exclude dirs and/or files: 
+[0.713s] -- Added test 'lint_cmake' to check CMake code style
+[0.713s] -- Added test 'uncrustify' to check C / C++ code style
+[0.713s] -- Configured uncrustify additional arguments: 
+[0.714s] -- Added test 'xmllint' to check XML markup files
+[0.715s] -- Configuring done
+[0.723s] -- Generating done
+[0.724s] -- Build files have been written to: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling
+[0.740s] [35m[1mScanning dependencies of target subscriber[0m
+[0.754s] [ 50%] Built target publisher
+[0.765s] [ 75%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[4.057s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[4.202s] [100%] Built target subscriber
+[4.209s] Invoked command in '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling -- -j16 -l16
+[4.232s] Invoking command in '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling
+[4.237s] -- Install configuration: ""
+[4.237s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/lib/patrolling/publisher
+[4.237s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/lib/patrolling/subscriber
+[4.239s] -- Set runtime path of "/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/lib/patrolling/subscriber" to ""
+[4.239s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/package_run_dependencies/patrolling
+[4.239s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/parent_prefix_path/patrolling
+[4.239s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/ament_prefix_path.sh
+[4.239s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/ament_prefix_path.dsv
+[4.239s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/path.sh
+[4.239s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/path.dsv
+[4.239s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.bash
+[4.239s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.sh
+[4.240s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.zsh
+[4.240s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.dsv
+[4.240s] -- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/package.dsv
+[4.240s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/packages/patrolling
+[4.240s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/cmake/patrollingConfig.cmake
+[4.240s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/cmake/patrollingConfig-version.cmake
+[4.240s] -- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/package.xml
+[4.241s] Invoked command in '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling

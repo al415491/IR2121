@@ -20,13 +20,17 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 
 add_executable(publisher src/publisher.cpp)
+add_executable(subscriber src/subscriber.cpp)
 ament_target_dependencies(publisher rclcpp geometry_msgs)
+ament_target_dependencies(subscriber rclcpp geometry_msgs nav_msgs)
 
 
 install (TARGETS
  publisher
+ subscriber
  DESTINATION lib/${PROJECT_NAME}
 )
 

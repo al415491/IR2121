@@ -1,4 +1,5 @@
 /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/lib/patrolling/publisher
+/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/lib/patrolling/subscriber
 /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/package_run_dependencies/patrolling
 /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/parent_prefix_path/patrolling
 /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/ament_prefix_path.sh

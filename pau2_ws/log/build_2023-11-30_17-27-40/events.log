@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000194] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000220] (patrolling) JobQueued: {'identifier': 'patrolling', 'dependencies': OrderedDict()}
+[0.000238] (patrolling) JobStarted: {'identifier': 'patrolling'}
+[0.099720] (-) TimerEvent: {}
+[0.130646] (patrolling) JobProgress: {'identifier': 'patrolling', 'progress': 'cmake'}
+[0.131223] (patrolling) JobProgress: {'identifier': 'patrolling', 'progress': 'build'}
+[0.132015] (patrolling) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling', '--', '-j16', '-l16'], 'cwd': '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pau24113'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pau24113'), ('OLDPWD', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1642'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68b0195d105bace4dc2d0cfc65689835'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pau24113'), ('JOURNAL_STREAM', '8:49414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pau24113'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/pau24113/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pau24113:@/tmp/.ICE-unix/1793,unix/pau24113:/tmp/.ICE-unix/1793'), ('INVOCATION_ID', '46a9101216e14f449c091f89b53bcc50'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ca3247d_82ba_489f_89ee_6534840a7143'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6N20E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling:/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68b0195d105bace4dc2d0cfc65689835'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling:/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim:/opt/ros/foxy')]), 'shell': False}
+[0.150497] (patrolling) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.165330] (patrolling) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199827] (-) TimerEvent: {}
+[0.300081] (-) TimerEvent: {}
+[0.311238] (patrolling) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.334450] (patrolling) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.336926] (patrolling) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.400183] (-) TimerEvent: {}
+[0.421836] (patrolling) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.460783] (patrolling) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.461857] (patrolling) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500282] (-) TimerEvent: {}
+[0.576072] (patrolling) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.600381] (-) TimerEvent: {}
+[0.607511] (patrolling) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[0.668743] (patrolling) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.700487] (-) TimerEvent: {}
+[0.711141] (patrolling) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.711767] (patrolling) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.711969] (patrolling) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.712052] (patrolling) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.712456] (patrolling) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.712539] (patrolling) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.712883] (patrolling) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.713488] (patrolling) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.713572] (patrolling) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.713835] (patrolling) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.715268] (patrolling) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.723394] (patrolling) StdoutLine: {'line': b'-- Generating done\n'}
+[0.724627] (patrolling) StdoutLine: {'line': b'-- Build files have been written to: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling\n'}
+[0.740516] (patrolling) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target subscriber\x1b[0m\n'}
+[0.753824] (patrolling) StdoutLine: {'line': b'[ 50%] Built target publisher\n'}
+[0.764694] (patrolling) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.800565] (-) TimerEvent: {}
+[0.900834] (-) TimerEvent: {}
+[1.001097] (-) TimerEvent: {}
+[1.101316] (-) TimerEvent: {}
+[1.201588] (-) TimerEvent: {}
+[1.301826] (-) TimerEvent: {}
+[1.402070] (-) TimerEvent: {}
+[1.502318] (-) TimerEvent: {}
+[1.602562] (-) TimerEvent: {}
+[1.702803] (-) TimerEvent: {}
+[1.803043] (-) TimerEvent: {}
+[1.903247] (-) TimerEvent: {}
+[2.003505] (-) TimerEvent: {}
+[2.103744] (-) TimerEvent: {}
+[2.203994] (-) TimerEvent: {}
+[2.304251] (-) TimerEvent: {}
+[2.404529] (-) TimerEvent: {}
+[2.504767] (-) TimerEvent: {}
+[2.605007] (-) TimerEvent: {}
+[2.705273] (-) TimerEvent: {}
+[2.805513] (-) TimerEvent: {}
+[2.905755] (-) TimerEvent: {}
+[3.005988] (-) TimerEvent: {}
+[3.106223] (-) TimerEvent: {}
+[3.206451] (-) TimerEvent: {}
+[3.306680] (-) TimerEvent: {}
+[3.406909] (-) TimerEvent: {}
+[3.507134] (-) TimerEvent: {}
+[3.607426] (-) TimerEvent: {}
+[3.707660] (-) TimerEvent: {}
+[3.807889] (-) TimerEvent: {}
+[3.908108] (-) TimerEvent: {}
+[4.008370] (-) TimerEvent: {}
+[4.056934] (patrolling) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[4.108490] (-) TimerEvent: {}
+[4.202176] (patrolling) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[4.208644] (patrolling) CommandEnded: {'returncode': 0}
+[4.209182] (-) TimerEvent: {}
+[4.224226] (patrolling) JobProgress: {'identifier': 'patrolling', 'progress': 'install'}
+[4.230793] (patrolling) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling'], 'cwd': '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pau24113'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/pau24113'), ('OLDPWD', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/src'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1642'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68b0195d105bace4dc2d0cfc65689835'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'pau24113'), ('JOURNAL_STREAM', '8:49414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pau24113'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/pau24113/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pau24113:@/tmp/.ICE-unix/1793,unix/pau24113:/tmp/.ICE-unix/1793'), ('INVOCATION_ID', '46a9101216e14f449c091f89b53bcc50'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ca3247d_82ba_489f_89ee_6534840a7143'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6N20E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling:/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/build/patrolling'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=68b0195d105bace4dc2d0cfc65689835'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling:/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/turtlesim:/opt/ros/foxy')]), 'shell': False}
+[4.237193] (patrolling) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.237460] (patrolling) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/lib/patrolling/publisher\n'}
+[4.237685] (patrolling) StdoutLine: {'line': b'-- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/lib/patrolling/subscriber\n'}
+[4.238764] (patrolling) StdoutLine: {'line': b'-- Set runtime path of "/home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/lib/patrolling/subscriber" to ""\n'}
+[4.238871] (patrolling) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/package_run_dependencies/patrolling\n'}
+[4.239104] (patrolling) StdoutLine: {'line': b'-- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/parent_prefix_path/patrolling\n'}
+[4.239238] (patrolling) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/ament_prefix_path.sh\n'}
+[4.239297] (patrolling) StdoutLine: {'line': b'-- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/ament_prefix_path.dsv\n'}
+[4.239419] (patrolling) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/path.sh\n'}
+[4.239524] (patrolling) StdoutLine: {'line': b'-- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/environment/path.dsv\n'}
+[4.239583] (patrolling) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.bash\n'}
+[4.239655] (patrolling) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.sh\n'}
+[4.239734] (patrolling) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.zsh\n'}
+[4.239802] (patrolling) StdoutLine: {'line': b'-- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/local_setup.dsv\n'}
+[4.239853] (patrolling) StdoutLine: {'line': b'-- Installing: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/package.dsv\n'}
+[4.239902] (patrolling) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/ament_index/resource_index/packages/patrolling\n'}
+[4.239977] (patrolling) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/cmake/patrollingConfig.cmake\n'}
+[4.240028] (patrolling) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/cmake/patrollingConfig-version.cmake\n'}
+[4.240075] (patrolling) StdoutLine: {'line': b'-- Up-to-date: /home/pau24113/Documents/GitHub/IR2121/pau2_ws/install/patrolling/share/patrolling/package.xml\n'}
+[4.240780] (patrolling) CommandEnded: {'returncode': 0}
+[4.309940] (-) TimerEvent: {}
+[4.410762] (-) TimerEvent: {}
+[4.505282] (patrolling) JobEnded: {'identifier': 'patrolling', 'rc': 0}
+[4.505705] (-) EventReactorShutdown: {}
