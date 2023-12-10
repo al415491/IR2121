@@ -23,14 +23,17 @@ find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 
 add_executable(publisher src/publisher.cpp)
+add_executable(patrolling src/patrolling.cpp)
 add_executable(subscriber src/subscriber.cpp)
 ament_target_dependencies(publisher rclcpp geometry_msgs)
 ament_target_dependencies(subscriber rclcpp geometry_msgs nav_msgs)
+ament_target_dependencies(patrolling rclcpp geometry_msgs nav_msgs)
 
 
 install (TARGETS
  publisher
  subscriber
+ patrolling
  DESTINATION lib/${PROJECT_NAME}
 )
 

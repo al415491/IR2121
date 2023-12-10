@@ -10,7 +10,6 @@ int main(int argc, char * argv[])
   auto node = rclcpp::Node::make_shared("publisher");
   auto publisher = node->create_publisher<geometry_msgs::msg::PoseStamped>("goal_pose", 10);
   geometry_msgs::msg::PoseStamped message;
-  auto publish_count = 0;
   rclcpp::WallRate loop_rate(500ms);
 
   while (rclcpp::ok()) {
@@ -29,7 +28,6 @@ int main(int argc, char * argv[])
     publisher->publish(message);
     rclcpp::spin_some(node);
     loop_rate.sleep();
-    ++publish_count;
   }
   rclcpp::shutdown();
   return 0;
