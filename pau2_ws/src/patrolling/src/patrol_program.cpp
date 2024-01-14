@@ -65,6 +65,7 @@ int main(int argc, char *argv[])
         rclcpp::spin_some(node);
         loop_rate.sleep();
     }
+    std::cout << "El robot ha alcanzado su objetivo. Vamos a por el siguiente!." << std::endl;
     }
 	
 	std::cout << "El robot ha alcanzado su objetivo. Finalizando el programa." << std::endl;
