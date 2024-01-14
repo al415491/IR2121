@@ -1,74 +1,97 @@
 #include <chrono>
 #include <iostream>
 #include <cmath>
+#include <vector>
 #include "rclcpp/rclcpp.hpp"
-#include "nav_msgs/msg/odometry.hpp"
+#include "geometry_msgs/msg/pose_with_covariance_stamped.hpp"
 #include "geometry_msgs/msg/pose_stamped.hpp"
 
 using namespace std::chrono_literals;
 
-// Variables globales para almacenar la posición actual del robot
-double pose_x = 0.0;
-double pose_y = 0.0;
-double error_x = 1.9;
-double error_y = 0.6;
-
-void topic_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
+class RobotNavigator : public rclcpp::Node
 {
-    pose_x = msg->pose.pose.position.x;
-    pose_y = msg->pose.pose.position.y;
-    std::cout << "Posición actual: (" << pose_x << ", " << pose_y << ")\n";
-}
+public:
+    RobotNavigator() : Node("programa1_node")
+    {
+        subscription_ = this->create_subscription<geometry_msgs::msg::PoseWithCovarianceStamped>(
+            "amcl_pose", 10, std::bind(&RobotNavigator::amcl_pose_callback, this, std::placeholders::_1));
+        publisher_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("goal_pose", 10);
 
-bool is_goal_reached(double pose_x, double pose_y, double goal_x, double goal_y, double threshold)
-{
-    double distance = std::sqrt(std::pow(pose_x - (goal_x-error_x), 2) + std::pow(pose_y - (goal_y - error_y), 2));
-    std::cout << "Distancia al objetivo: " << distance << "\n";
-    return distance < threshold;
-}
+        goals_ = {
+            {5.26, -2.84},
+            {1.25, 3.57},
+            {-6.35, -1.17},
+            {-2.65, 3.19},
+            {-1.38, -1.14}
+        };
+
+        error_x_ = 1.9;
+        error_y_ = 0.6;
+        threshold_ = 0.55;
+        goal_reached_ = false;
+        current_goal_index_ = 0;
+
+        publish_next_goal();
+    }
+
+private:
+    void amcl_pose_callback(const geometry_msgs::msg::PoseWithCovarianceStamped::SharedPtr msg)
+    {
+        double pose_x = msg->pose.pose.position.x;
+        double pose_y = msg->pose.pose.position.y;
+        std::cout << "Posición actual: (" << pose_x << ", " << pose_y << ")\n";
+
+        if (is_goal_reached(pose_x, pose_y, goals_[current_goal_index_].first, goals_[current_goal_index_].second))
+        {
+            std::cout << "Objetivo alcanzado: (" << goals_[current_goal_index_].first << ", " << goals_[current_goal_index_].second << ")\n";
+            goal_reached_ = true;
+            if (current_goal_index_ < goals_.size() - 1)
+            {
+                current_goal_index_++;
+                publish_next_goal();
+            }
+            else
+            {
+                std::cout << "Todos los objetivos alcanzados. Finalizando el programa.\n";
+                rclcpp::shutdown();
+            }
+        }
+    }
+
+    bool is_goal_reached(double pose_x, double pose_y, double goal_x, double goal_y)
+    {
+        double adjusted_goal_x = goal_x + error_x_;
+        double adjusted_goal_y = goal_y + error_y_;
+        double distance = std::sqrt(std::pow(pose_x - adjusted_goal_x, 2) + std::pow(pose_y - adjusted_goal_y, 2));
+        return distance < threshold_;
+    }
+
+    void publish_next_goal()
+    {
+        goal_reached_ = false;
+        auto message = geometry_msgs::msg::PoseStamped();
+        message.pose.position.x = goals_[current_goal_index_].first + error_x_;
+        message.pose.position.y = goals_[current_goal_index_].second + error_y_;
+        publisher_->publish(message);
+    }
+
+    rclcpp::Subscription<geometry_msgs::msg::PoseWithCovarianceStamped>::SharedPtr subscription_;
+    rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr publisher_;
+	std::vector<std::pair<double, double>> goals_;
+	double error_x_;
+	double error_y_;
+	double threshold_;
+	bool goal_reached_;
+	size_t current_goal_index_;
+
+};
 
 int main(int argc, char *argv[])
 {
-    rclcpp::init(argc, argv);
-    auto node = rclcpp::Node::make_shared("programa1_node");
-    auto subscription = node->create_subscription<nav_msgs::msg::Odometry>("odom", 10, topic_callback);
-    auto publisher = node->create_publisher<geometry_msgs::msg::PoseStamped>("goal_pose", 10);
-
-    geometry_msgs::msg::PoseStamped message;
-    rclcpp::WallRate loop_rate(500ms);
-
-    // Establecer la pose objetivo
-    
-    std::vector<std::pair<double, double>> goals = {
-        {5.26, -2.84},
-        {1.25, 3.57},
-        {-6.35, -1.17},
-        {-2.65, 3.19},
-        {-1.38, -1.14}
-    };
-    
-    
-    double threshold = 0.55;
-    for (auto& goal : goals)
-    {
-        geometry_msgs::msg::PoseStamped message;
-        double goal_x = goal.first + error_x;
-        double goal_y = goal.second + error_y; 
-
-    message.pose.position.x = goal_x;
-    message.pose.position.y = goal_y;
-
-    publisher->publish(message);
-
-    while (rclcpp::ok() && !is_goal_reached(pose_x, pose_y, goal_x, goal_y, threshold)) 
-    {
-        rclcpp::spin_some(node);
-        loop_rate.sleep();
-    }
-    std::cout << "El robot ha alcanzado su objetivo. Vamos a por el siguiente!." << std::endl;
-    }
-	
-	std::cout << "El robot ha alcanzado su objetivo. Finalizando el programa." << std::endl;
-    rclcpp::shutdown();
-    return 0;
+	rclcpp::init(argc, argv);
+	auto node = std::make_shared<RobotNavigator>();
+	rclcpp::spin(node);
+	rclcpp::shutdown();
+	return 0;
 }
+
