@@ -21,9 +21,10 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
+find_package(tf2_ros REQUIRED)
 
 add_executable(patrol src/patrol_program.cpp)
-ament_target_dependencies(patrol rclcpp geometry_msgs nav_msgs std_msgs)
+ament_target_dependencies(patrol rclcpp geometry_msgs nav_msgs std_msgs tf2_ros) 
 
 
 install (TARGETS
